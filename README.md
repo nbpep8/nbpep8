@@ -43,6 +43,17 @@ cell_content.py:5:2: E225 missing whitespace around operator
 cell_content.py:5:3: E222 multiple spaces after operator
 ```
 
+## Sample Notebooks
+### Kaggle
+https://www.kaggle.com/debanga/kaggle-pep8-test
+
+### Google Colab
+https://colab.research.google.com/drive/1fmZAd-GnG2jr7jAJMs38oDD6nt2ohARX
+
+
+
+
+
 Any suggestions to improve? Please send me a message at https://www.linkedin.com/in/debanga/.
 
 ---
