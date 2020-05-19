@@ -6,9 +6,11 @@ def pep8(content: str) -> None:
         - PEP8 analysis
     """
     import subprocess
+    from subprocess import PIPE
+    
     text_file = open("cell_content.py", "w")
     n = text_file.write(content[-1][:] + '\n')
     text_file.close()
-    s = subprocess.run(["pycodestyle", "cell_content.py"], capture_output=True)
+    s = subprocess.run(["pycodestyle", "cell_content.py"], stdout=PIPE, stderr=PIPE)
     print(s.stdout.decode('utf8'))
-    subprocess.run(["rm", "cell_content.py"], capture_output=False)
+    subprocess.run(["rm", "cell_content.py"],  stdout=PIPE, stderr=PIPE)
