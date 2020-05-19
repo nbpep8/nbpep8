@@ -8,5 +8,6 @@ def pep8():
     text_file = open("cell_content.py", "w")
     n = text_file.write(_ih[-1][:] + '\n')
     text_file.close()
-    !pycodestyle cell_content.py
-    !rm cell_content.py 
+    s = subprocess.run(["pycodestyle", "cell_content.py"], capture_output=True)
+    print(s.stdout.decode('utf8'))
+    subprocess.run(["rm", "cell_content.py"], capture_output=False)
