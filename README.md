@@ -1,6 +1,4 @@
-# nbpep8
-
-(c) 2020, Debanga Raj Neog
+# ```nbpep8```
 
 A package for PEP8 analysis in browser based Jupyter notebooks, such as Kaggle and Google Colabatory, that does not allow adding PEP8 analysis tools as add ons.
 
@@ -47,3 +45,5 @@ cell_content.py:5:3: E222 multiple spaces after operator
 
 Any suggestions to improve? Please send me a message at https://www.linkedin.com/in/debanga/.
 
+---
+**(c) 2020, Debanga Raj Neog**
