@@ -27,11 +27,8 @@ Add ```pep8(_ih)``` at the end of the code cell to see ```PEP8``` analysis.
 Example:
 
 ```
-import os
-import sys
-
-
-a=  23
+import os,sys
+a =  23
 
 pep8(_ih)
 ```
@@ -39,8 +36,9 @@ pep8(_ih)
 Output:
 
 ```
-cell_content.py:5:2: E225 missing whitespace around operator
-cell_content.py:5:3: E222 multiple spaces after operator
+cell_content.py:1:10: E231 missing whitespace after ','
+cell_content.py:1:10: E401 multiple imports on one line
+cell_content.py:2:4: E222 multiple spaces after operator
 ```
 
 ## Sample Notebooks
