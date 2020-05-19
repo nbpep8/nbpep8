@@ -7,7 +7,7 @@ requirements = ["ipython>=7.13.0", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
     name="nbpep8",
-    version="0.0.5",
+    version="0.0.6",
     author="Debanga Raj Neog",
     author_email="debanga88@gmail.com",
     description="A package for PEP8 analysis of notebook cell",
