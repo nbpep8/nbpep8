@@ -5,7 +5,7 @@ def pep8(content: str) -> None:
     Returns:
         - PEP8 analysis
     """
-    global _ih
+    import subprocess
     text_file = open("cell_content.py", "w")
     n = text_file.write(content[-1][:] + '\n')
     text_file.close()
