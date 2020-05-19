@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = ["ipython>=7.13.0", "nbformat>=4", "nbconvert>=5", "requests>=2"]
+requirements = []
 
 setup(
     name="nbpep8",
