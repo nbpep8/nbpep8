@@ -1,4 +1,4 @@
-def pep8(content: str = _ih) -> None:
+def pep8(content: str) -> None:
     """ Display PEP8 analysis for a notebook cell
     Usage:
         - pep8(content: str) at the end of the notebook code cell
