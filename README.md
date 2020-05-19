@@ -1,6 +1,6 @@
 # ```nbpep8```
 
-A package for PEP8 analysis in browser based Jupyter notebooks, such as Kaggle and Google Colabatory, that does not allow adding PEP8 analysis tools as add ons.
+A package for PEP8 analysis in browser based Jupyter notebooks, such as Kaggle and Google Colabatory, that do not allow adding 3rd Party PEP8 analysis tools as add ons.
 
 
 ## Prerequisites
