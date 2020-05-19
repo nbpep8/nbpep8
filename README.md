@@ -5,7 +5,7 @@ A package for PEP8 analysis in browser based Jupyter notebooks, such as Kaggle a
 
 ## Prerequisites
 
-- Install ```pycodestyle``` is already not installed. Old ```pep8``` package is replaced by this new package.
+- Install ```pycodestyle``` if already not installed. This package replaces old ```pep8``` package. It comes pre-installed in Kaggle notebooks but not in Google Colabs.
 - Install ```nbpep8``` from ```test.pypi ```. I will push to ```PyPI``` in future.
 
 ```
